@@ -54,9 +54,13 @@ void display() {                               // Prosedur untuk menampilkan has
         cout << a[j] << endl;                   // Output ke layar
     }
     cout << endl;                               // Output baris kosong
-int main()
-{
-    std::cout << "Hello World!\n";
+}
+int main(){
+    input();                                    // Memanggil prosedur input()
+    unsorted();                                 // Memanggil Prosedur Unsorted()
+    bubbleSortArray();                          // Memanggil Prosedur bubbleSortArray()
+    display();                                  // Memanggil Prosedur display
+    return 0;
 }
 
 
